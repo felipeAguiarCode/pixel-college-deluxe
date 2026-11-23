@@ -10,7 +10,7 @@ Pixel-art college football with quick matches, championships, and a coaching car
 
 [Play online](https://felipeaguiarcode.github.io/pixel-college-deluxe/) · [Game modes](#game-modes) · [Controls](#controls) · [Saved progress](#saved-progress)
 
-![Colorado vs. Utah in the snow, with passing routes drawn near the end zone](demo/08-neve-colorado-utah-qb-no-pocket.png)
+![Colorado vs. Utah in the snow, with passing routes drawn near the end zone](.demo/08-neve-colorado-utah-qb-no-pocket.png)
 
 ## 🏈 Your first game
 

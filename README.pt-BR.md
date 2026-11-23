@@ -10,7 +10,7 @@ Futebol americano universitário em pixel art, com partidas rápidas, campeonato
 
 [Jogar online](https://felipeaguiarcode.github.io/pixel-college-deluxe/) · [Modos de jogo](#modos-de-jogo) · [Controles](#controles) · [Salvamento](#salvamento)
 
-![Colorado contra Utah na neve, com as rotas de passe desenhadas perto da end zone](demo/08-neve-colorado-utah-qb-no-pocket.png)
+![Colorado contra Utah na neve, com as rotas de passe desenhadas perto da end zone](.demo/08-neve-colorado-utah-qb-no-pocket.png)
 
 ## 🏈 Sua primeira partida
 

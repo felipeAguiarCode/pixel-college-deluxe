@@ -3885,10 +3885,12 @@ function scoreArt(kind, variant, team) {
     ? mix('#0c1722', color, i / 174)
     : mix(color, '#fff3dd', (i - 174) / 81 * 0.62)));
   const primary = ramp(team.primary), secondary = ramp(team.secondary);
+  const touchdown26 = kind === 'tdWin' && variant === 3;
+  const greenRedGap = touchdown26 ? 5 : 14, greenBlueGap = touchdown26 ? 7 : 20;
   for (let i = 0; i < pixels.length; i += 4) {
     const r = pixels[i], g = pixels[i + 1], b = pixels[i + 2];
     let color;
-    if (g > r + 14 && g > b + 20) color = primary[g];
+    if (g > r + greenRedGap && g > b + greenBlueGap) color = primary[g];
     else if (r > g + 24 && b > g + 13 && r > b * 0.89) color = secondary[Math.max(r, b)];
     if (color) { pixels[i] = color[0]; pixels[i + 1] = color[1]; pixels[i + 2] = color[2]; }
   }
