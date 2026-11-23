@@ -26,6 +26,23 @@ Futebol americano universitário em pixel art, com partidas rápidas, campeonato
 
 <a name="modos-de-jogo"></a>
 
+## 📸 Capturas de tela
+
+<table>
+  <tr>
+    <td><img src=".demo/19-storm-florida-miami-pass.png" alt="Florida contra Miami, com um passe no ar durante um temporal" width="440"></td>
+    <td><img src=".demo/20-wind-texas-oklahoma-kick.png" alt="Texas contra Oklahoma, com uma tentativa de ponto extra sob vento forte" width="440"></td>
+  </tr>
+  <tr>
+    <td><img src=".demo/05-neve-michigan-michigan-state-handoff.png" alt="Michigan contra Michigan State, com um handoff na neve" width="440"></td>
+    <td><img src=".demo/22-rain-oregon-washington-return.png" alt="Oregon contra Washington, com um retorno de kickoff na chuva" width="440"></td>
+  </tr>
+  <tr>
+    <td><img src=".demo/21-snow-ohio-state-michigan-pursuit.png" alt="Ohio State contra Michigan, com a defesa perseguindo o corredor na neve" width="440"></td>
+    <td><img src=".demo/11-qte-miami-florida-defesa-do-passe.png" alt="Miami contra Florida, com um quick-time event para defender o passe" width="440"></td>
+  </tr>
+</table>
+
 ## 🏆 Modos de jogo
 
 | Modo | Como funciona |
@@ -131,23 +148,6 @@ Na **conversão de dois pontos**, a janela verde de recepção é menor e chegar
 No QTE de **defesa do passe**, **100%** de acerto dá a interceptação. Com **80% ou mais**, você derruba o recebedor depois da recepção. Abaixo de **80%**, o recebedor escapa.
 
 <a name="salvamento"></a>
-
-## 📸 Capturas de tela
-
-<table>
-  <tr>
-    <td><img src=".demo/19-storm-florida-miami-pass.png" alt="Florida contra Miami, com um passe no ar durante um temporal" width="440"></td>
-    <td><img src=".demo/20-wind-texas-oklahoma-kick.png" alt="Texas contra Oklahoma, com uma tentativa de ponto extra sob vento forte" width="440"></td>
-  </tr>
-  <tr>
-    <td><img src=".demo/05-neve-michigan-michigan-state-handoff.png" alt="Michigan contra Michigan State, com um handoff na neve" width="440"></td>
-    <td><img src=".demo/22-rain-oregon-washington-return.png" alt="Oregon contra Washington, com um retorno de kickoff na chuva" width="440"></td>
-  </tr>
-  <tr>
-    <td><img src=".demo/21-snow-ohio-state-michigan-pursuit.png" alt="Ohio State contra Michigan, com a defesa perseguindo o corredor na neve" width="440"></td>
-    <td><img src=".demo/11-qte-miami-florida-defesa-do-passe.png" alt="Miami contra Florida, com um quick-time event para defender o passe" width="440"></td>
-  </tr>
-</table>
 
 ## 💾 Salvamento
 
