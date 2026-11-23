@@ -1,10 +1,16 @@
 # Artes do PIXEL COLLEGE DELUXE
 
-As ilustrações originais foram criadas com a ferramenta integrada ImageGen e exportadas em WebP. O brasão em [logo.png](../branding/logo.png) foi desenhado em pixel art para o jogo.
+As ilustrações originais foram criadas com a ferramenta integrada ImageGen. O ícone do jogo tem versões em PNG de 16 a 1024 pixels. [Ícones](../../.store/icons/)
 
 O [atlas de emblemas](../teams/team-logos.webp) reúne as marcas publicadas pela NCAA. Cada emblema ocupa um quadro de 64 × 64 pixels. [Classificação da NCAA FBS](https://www.ncaa.com/standings/football/fbs)
 
 ## Prompts das ilustrações
+
+### Ícone do jogo
+
+[PNG de 512 × 512](../../.store/icons/icon-512.png)
+
+Design a completely original icon for a retro pixel-art AMERICAN FOOTBALL arcade video game. Deliver one finished perfectly square app icon, full bleed flat darkest midnight navy background (#101e34), no outer frame, no margins outside the square. Bold, extremely readable simplified emblem for small sizes such as 16x16. A large iconic American football, unmistakably POINTED OVAL like a real US football (never a soccer ball or bread), diagonally angled from lower left to upper right. Big orange-amber leather facets and chunky copper outlines, with a wide short ivory seam and three generous ivory laces of clearly distinct square pixels. The football is about 70 percent of the square wide and tall, safely inside the icon. A single compact diagonal pair of stadium green/teal motion jets behind the lower-left football edge, forming two thick stair-step stripes suggesting a long spiral throw; a subtle deep teal shape behind the ball if useful for contrast. Asymmetric dynamic composition with plenty of quiet midnight navy edge space. Draw on a disciplined low-res pixel-art grid close to 32 by 32 with clean chunky hard square pixel steps, thick color blocks, restrained palette like a premium 16-bit football game. Avoid hairline details, antialiasing, noise, fine textures, busy backgrounds, shadows outside the square, extra floating objects, realistic photography, symbols of other brands, titles, letters, numbers, watermarks, helmet and shield. One simple bold arcade emblem, recognizable when minified.
 
 ### Recepção com uma mão no carregamento inicial
 

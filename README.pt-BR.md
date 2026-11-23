@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/branding/logo.png" width="96" height="96" alt="Ícone de PIXEL COLLEGE DELUXE">
+<img src=".store/icons/icon-96.png" width="96" height="96" alt="Ícone de PIXEL COLLEGE DELUXE">
 
 # PIXEL COLLEGE DELUXE
 
@@ -10,11 +10,11 @@ Futebol americano universitário em pixel art, com partidas rápidas, campeonato
 
 [Jogar online](https://felipeaguiarcode.github.io/pixel-college-deluxe/) · [Modos de jogo](#modos-de-jogo) · [Controles](#controles) · [Salvamento](#salvamento)
 
-![Colorado contra Utah na neve, com as rotas de passe desenhadas perto da end zone](.demo/08-neve-colorado-utah-qb-no-pocket.png)
+![Colorado contra Utah na neve, com as rotas de passe desenhadas perto da end zone](.store/screenshots/08-neve-colorado-utah-qb-no-pocket.png)
 
 ## 🏈 Sua primeira partida
 
-**1.** [Jogue online](https://felipeaguiarcode.github.io/pixel-college-deluxe/) ou abra [`index.html`](index.html) para jogar offline. Se recebeu o jogo compactado, extraia tudo primeiro e mantenha `assets/` ao lado do arquivo.
+**1.** [Jogue online](https://felipeaguiarcode.github.io/pixel-college-deluxe/) ou abra [`index.html`](index.html) para jogar offline. Se recebeu o jogo compactado, extraia tudo primeiro e mantenha `assets/` e `.store/` ao lado do arquivo.
 
 **2.** O menu começa em inglês. Para trocar, abra **Settings → Language → Português (Brasil)**.
 
@@ -30,16 +30,16 @@ Futebol americano universitário em pixel art, com partidas rápidas, campeonato
 
 <table>
   <tr>
-    <td><img src=".demo/19-storm-florida-miami-pass.png" alt="Florida contra Miami, com um passe no ar durante um temporal" width="440"></td>
-    <td><img src=".demo/20-wind-texas-oklahoma-kick.png" alt="Texas contra Oklahoma, com uma tentativa de ponto extra sob vento forte" width="440"></td>
+    <td><img src=".store/screenshots/19-storm-florida-miami-pass.png" alt="Florida contra Miami, com um passe no ar durante um temporal" width="440"></td>
+    <td><img src=".store/screenshots/20-wind-texas-oklahoma-kick.png" alt="Texas contra Oklahoma, com uma tentativa de ponto extra sob vento forte" width="440"></td>
   </tr>
   <tr>
-    <td><img src=".demo/05-neve-michigan-michigan-state-handoff.png" alt="Michigan contra Michigan State, com um handoff na neve" width="440"></td>
-    <td><img src=".demo/22-rain-oregon-washington-return.png" alt="Oregon contra Washington, com um retorno de kickoff na chuva" width="440"></td>
+    <td><img src=".store/screenshots/05-neve-michigan-michigan-state-handoff.png" alt="Michigan contra Michigan State, com um handoff na neve" width="440"></td>
+    <td><img src=".store/screenshots/22-rain-oregon-washington-return.png" alt="Oregon contra Washington, com um retorno de kickoff na chuva" width="440"></td>
   </tr>
   <tr>
-    <td><img src=".demo/21-snow-ohio-state-michigan-pursuit.png" alt="Ohio State contra Michigan, com a defesa perseguindo o corredor na neve" width="440"></td>
-    <td><img src=".demo/11-qte-miami-florida-defesa-do-passe.png" alt="Miami contra Florida, com um quick-time event para defender o passe" width="440"></td>
+    <td><img src=".store/screenshots/21-snow-ohio-state-michigan-pursuit.png" alt="Ohio State contra Michigan, com a defesa perseguindo o corredor na neve" width="440"></td>
+    <td><img src=".store/screenshots/11-qte-miami-florida-defesa-do-passe.png" alt="Miami contra Florida, com um quick-time event para defender o passe" width="440"></td>
   </tr>
 </table>
 

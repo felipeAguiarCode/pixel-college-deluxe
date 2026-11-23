@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/branding/logo.png" width="96" height="96" alt="PIXEL COLLEGE DELUXE icon">
+<img src=".store/icons/icon-96.png" width="96" height="96" alt="PIXEL COLLEGE DELUXE icon">
 
 # PIXEL COLLEGE DELUXE
 
@@ -10,11 +10,11 @@ Pixel-art college football with quick matches, championships, and a coaching car
 
 [Play online](https://felipeaguiarcode.github.io/pixel-college-deluxe/) · [Game modes](#game-modes) · [Controls](#controls) · [Saved progress](#saved-progress)
 
-![Colorado vs. Utah in the snow, with passing routes drawn near the end zone](.demo/08-neve-colorado-utah-qb-no-pocket.png)
+![Colorado vs. Utah in the snow, with passing routes drawn near the end zone](.store/screenshots/08-neve-colorado-utah-qb-no-pocket.png)
 
 ## 🏈 Your first game
 
-**1.** [Play online](https://felipeaguiarcode.github.io/pixel-college-deluxe/) or open [`index.html`](index.html) offline. If you received a ZIP, extract the whole folder first and keep `assets/` next to the file.
+**1.** [Play online](https://felipeaguiarcode.github.io/pixel-college-deluxe/) or open [`index.html`](index.html) offline. If you received a ZIP, extract the whole folder first and keep `assets/` and `.store/` next to the file.
 
 **2.** The game opens in English. To switch the in-game menus, go to **Settings → Language → Português (Brasil)**.
 
@@ -30,16 +30,16 @@ Pixel-art college football with quick matches, championships, and a coaching car
 
 <table>
   <tr>
-    <td><img src=".demo/19-storm-florida-miami-pass.png" alt="Florida vs. Miami, with a pass in the air during a storm" width="440"></td>
-    <td><img src=".demo/20-wind-texas-oklahoma-kick.png" alt="Texas vs. Oklahoma, with an extra-point attempt in strong wind" width="440"></td>
+    <td><img src=".store/screenshots/19-storm-florida-miami-pass.png" alt="Florida vs. Miami, with a pass in the air during a storm" width="440"></td>
+    <td><img src=".store/screenshots/20-wind-texas-oklahoma-kick.png" alt="Texas vs. Oklahoma, with an extra-point attempt in strong wind" width="440"></td>
   </tr>
   <tr>
-    <td><img src=".demo/05-neve-michigan-michigan-state-handoff.png" alt="Michigan vs. Michigan State, with a handoff in the snow" width="440"></td>
-    <td><img src=".demo/22-rain-oregon-washington-return.png" alt="Oregon vs. Washington, with a kickoff return in the rain" width="440"></td>
+    <td><img src=".store/screenshots/05-neve-michigan-michigan-state-handoff.png" alt="Michigan vs. Michigan State, with a handoff in the snow" width="440"></td>
+    <td><img src=".store/screenshots/22-rain-oregon-washington-return.png" alt="Oregon vs. Washington, with a kickoff return in the rain" width="440"></td>
   </tr>
   <tr>
-    <td><img src=".demo/21-snow-ohio-state-michigan-pursuit.png" alt="Ohio State vs. Michigan, with defenders chasing a runner in the snow" width="440"></td>
-    <td><img src=".demo/11-qte-miami-florida-defesa-do-passe.png" alt="Miami vs. Florida, with a quick-time event to defend a pass" width="440"></td>
+    <td><img src=".store/screenshots/21-snow-ohio-state-michigan-pursuit.png" alt="Ohio State vs. Michigan, with defenders chasing a runner in the snow" width="440"></td>
+    <td><img src=".store/screenshots/11-qte-miami-florida-defesa-do-passe.png" alt="Miami vs. Florida, with a quick-time event to defend a pass" width="440"></td>
   </tr>
 </table>
 
