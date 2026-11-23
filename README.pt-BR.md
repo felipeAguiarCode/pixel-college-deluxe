@@ -132,6 +132,23 @@ No QTE de **defesa do passe**, **100%** de acerto dá a interceptação. Com **8
 
 <a name="salvamento"></a>
 
+## 📸 Capturas de tela
+
+<table>
+  <tr>
+    <td><img src=".demo/19-storm-florida-miami-pass.png" alt="Florida contra Miami, com um passe no ar durante um temporal" width="440"></td>
+    <td><img src=".demo/20-wind-texas-oklahoma-kick.png" alt="Texas contra Oklahoma, com uma tentativa de ponto extra sob vento forte" width="440"></td>
+  </tr>
+  <tr>
+    <td><img src=".demo/05-neve-michigan-michigan-state-handoff.png" alt="Michigan contra Michigan State, com um handoff na neve" width="440"></td>
+    <td><img src=".demo/22-rain-oregon-washington-return.png" alt="Oregon contra Washington, com um retorno de kickoff na chuva" width="440"></td>
+  </tr>
+  <tr>
+    <td><img src=".demo/21-snow-ohio-state-michigan-pursuit.png" alt="Ohio State contra Michigan, com a defesa perseguindo o corredor na neve" width="440"></td>
+    <td><img src=".demo/11-qte-miami-florida-defesa-do-passe.png" alt="Miami contra Florida, com um quick-time event para defender o passe" width="440"></td>
+  </tr>
+</table>
+
 ## 💾 Salvamento
 
 Carreira e campeonato ficam no armazenamento do navegador. Use o mesmo navegador e perfil para continuar e evite jogar em janela privada se quiser manter o progresso. Resultados de Jogo Rápido valem para aquela partida.

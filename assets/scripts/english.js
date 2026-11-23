@@ -693,7 +693,10 @@ Sair da transmissão?|Leave the broadcast?
 Volte à seleção de times.|Return to matchup setup.
 Vence!|wins!
 Intervalo encerrado.|Halftime is over.
-Cada equipe recebe uma posse na linha de 25.|Each team gets a possession at the 25-yard line.`;
+Cada equipe recebe uma posse na linha de 25.|Each team gets a possession at the 25-yard line.
+Interceptação decisiva!|Clutch interception!
+Posse recuperada|Possession gained
+Defesa em destaque|Defensive highlight`;
 
 const englishPhrases = new Map(englishEntries.split('\n').map((line) => {
   const [pt, en] = line.split('|');

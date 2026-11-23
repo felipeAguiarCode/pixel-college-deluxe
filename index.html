@@ -2748,6 +2748,11 @@ function createMatchEngine({ onEvent = () => {} } = {}) {
       d.vx = carrier.vx * 0.6; d.vy = carrier.vy * 0.6;
       const fumble = !inPocket && rng() < (opts.difficulty === 'hard' ? 0.012 : 0.006);
       sound('tackle');
+      const stoppedDrive = s.down >= 3 && carrier.x < s.firstDownX;
+      const goalLineStop = s.firstDownX === 110 && carrier.x >= 104;
+      if (!isConversion && (inPocket || fumble || stoppedDrive || goalLineStop)) {
+        emit('tackle', inPocket ? 'SACK!' : fumble ? 'FUMBLE!' : 'TACKLE!', '', { team: 'away' });
+      }
       resolvePlay(inPocket ? 'sack' : fumble ? 'fumble' : 'tackle', carrier.x);
       return;
     }
@@ -3825,7 +3830,7 @@ function createAudio() {
    Regra de ouro: nada é escalado na hora de desenhar. Tudo 1:1 em coordenadas inteiras.
    ===================================================================== */
 function makeCanvas(w, h) { const c = document.createElement('canvas'); c.width = Math.max(1, w | 0); c.height = Math.max(1, h | 0); return c; }
-const SCORE_SCENES = ['tdWin', 'tdLoss', 'clutchWin', 'clutchLoss', 'pat', 'fg'];
+const SCORE_SCENES = ['tdWin', 'tdLoss', 'clutchWin', 'clutchLoss', 'pat', 'fg', 'tackle', 'interception'];
 const SCORE_VARIANTS = 4;
 const SCORE_REACTION_SECONDS = 3.1;
 const PLAY_CUT_INS = Object.freeze({
@@ -3885,8 +3890,8 @@ function scoreArt(kind, variant, team) {
     ? mix('#0c1722', color, i / 174)
     : mix(color, '#fff3dd', (i - 174) / 81 * 0.62)));
   const primary = ramp(team.primary), secondary = ramp(team.secondary);
-  const touchdown26 = kind === 'tdWin' && variant === 3;
-  const greenRedGap = touchdown26 ? 5 : 14, greenBlueGap = touchdown26 ? 7 : 20;
+  const deepGreen = kind === 'tackle' || kind === 'interception' || kind === 'tdWin' && variant === 3;
+  const greenRedGap = deepGreen ? 5 : 14, greenBlueGap = deepGreen ? 7 : 20;
   for (let i = 0; i < pixels.length; i += 4) {
     const r = pixels[i], g = pixels[i + 1], b = pixels[i + 2];
     let color;
@@ -5930,8 +5935,8 @@ function createRenderer(canvas) {
     blitText(ctx, reaction.title, x + w / 2, y + 7, '#fff0d5', scale, 'center', null);
     ctx.drawImage(image, x, y + 26, w, h);
     const footer = y + 26 + h;
-    blitText(ctx, `${s.home.short} ${s.homeScore} × ${s.awayScore} ${s.away.short}`, x + 5, footer + 7, '#edf4ee', 1, 'left', null);
-    blitText(ctx, touch ? 'TOQUE PARA CONTINUAR' : 'ESPAÇO PARA CONTINUAR', x + w - 5, footer + 7, '#aec9cb', 1, 'right', null);
+    blitText(ctx, reaction.caption || `${s.home.short} ${s.homeScore} × ${s.awayScore} ${s.away.short}`, x + 5, footer + 7, '#edf4ee', 1, 'left', null);
+    blitText(ctx, touch ? 'TOQUE PARA PULAR' : 'ESPAÇO PARA PULAR', x + w - 5, footer + 7, '#aec9cb', 1, 'right', null);
     ctx.fillStyle = accent; ctx.fillRect(x, footer + 20, Math.floor(w * (1 - reaction.elapsed / SCORE_REACTION_SECONDS)), 2);
   }
 
@@ -6970,6 +6975,30 @@ function startPlayCutIn(kind, player, st) {
   audio.play('oneHandCatch');
   audio.swell(0.55, 0.8);
 }
+function startMatchReaction(art, st) {
+  if (!art || st.simulating) return false;
+  const m = app.match;
+  const previous = m.lastReaction[art.kind];
+  const variant = previous === undefined ? Math.floor(Math.random() * SCORE_VARIANTS)
+    : (previous + 1 + Math.floor(Math.random() * (SCORE_VARIANTS - 1))) % SCORE_VARIANTS;
+  const image = scoreArt(art.kind, variant, art.team);
+  if (!image) return false;
+  m.lastReaction[art.kind] = variant;
+  m.reaction = { ...art, image, variant, elapsed: 0 };
+  app.keys.clear(); app.passKeys.clear(); app.drag = null; app.aim = null; app.charge = null;
+  app.steerId = null; app.steerHold = 0; app.dragSteer = 0;
+  return true;
+}
+function startDefenseReaction(kind, title, side, st) {
+  const team = st[side];
+  const interception = kind === 'interception';
+  const decisive = interception && lateMatch(st) && Math.abs(st.homeScore - st.awayScore) <= 8;
+  const caption = interception ? 'POSSE RECUPERADA' : 'DEFESA EM DESTAQUE';
+  return startMatchReaction({
+    kind, team, title: decisive ? 'INTERCEPTAÇÃO DECISIVA!' : interception ? 'INTERCEPTAÇÃO!' : title,
+    caption: `${team.short} · ${caption}`,
+  }, st);
+}
 function startBroadcastBreak(kind, quarter, halftime = false) {
   const m = app.match, st = m.engine.getState();
   const last = m.broadcastVariants[kind];
@@ -6998,7 +7027,7 @@ function onMatchEvent(ev) {
       if (ev.title === 'catch') audio.swell(0.18, 0.4);
       break;
     case 'score': {
-      const art = !st.simulating && scoreCutaway(st, ev);
+      const art = scoreCutaway(st, ev);
       const scorer = ev.player || st.players.find((p) => p.team === ev.team && (ev.points === 3 ? p.role === 'K' : p.id === st.carrierId));
       const lead = ev.team === 'home' ? st.homeScore - st.awayScore : st.awayScore - st.homeScore;
       if (ev.returned) startPlayCutIn('returnTD', scorer, st);
@@ -7006,18 +7035,7 @@ function onMatchEvent(ev) {
       else if (art?.kind === 'clutchWin' || art?.kind === 'clutchLoss') startPlayCutIn('clutchTD', scorer, st);
       else if (ev.points === 3 && lateMatch(st) && lead > 0 && lead <= 3) startPlayCutIn('clutchFG', scorer, st);
       else if (ev.points === 3 && ev.distance >= 50) startPlayCutIn('longFG', scorer, st);
-      if (art) {
-        const m = app.match;
-        const previous = m.lastReaction[art.kind];
-        const variant = previous === undefined ? Math.floor(Math.random() * SCORE_VARIANTS)
-          : (previous + 1 + Math.floor(Math.random() * (SCORE_VARIANTS - 1))) % SCORE_VARIANTS;
-        const image = scoreArt(art.kind, variant, art.team);
-        if (image) {
-          m.lastReaction[art.kind] = variant;
-          m.reaction = { ...art, image, variant, elapsed: 0 };
-          app.keys.clear(); app.drag = null; app.aim = null; app.charge = null; app.steerHold = 0; app.dragSteer = 0;
-        }
-      }
+      if (ev.bonus !== 'tackle' || !startDefenseReaction('tackle', 'TACKLE!', 'home', st)) startMatchReaction(art, st);
       if (st.mode === 'watch' || ev.team === 'home') {
         const team = ev.team === 'home' ? st.home : st.away;
         if (!app.match.reaction) renderer.banner(ev.title, ev.message, 'score', team.primary);
@@ -7033,18 +7051,25 @@ function onMatchEvent(ev) {
       renderer.banner('FIRST DOWN!', ev.message, 'good'); audio.play('firstDown'); audio.swell(0.35, 0.8);
       if (ev.yards >= 20) renderer.hype(1.5);
       break;
+    case 'tackle':
+      startDefenseReaction('tackle', ev.title, ev.team, st);
+      break;
     case 'turnover':
-      if (ev.title === 'INTERCEPTADO!') startPlayCutIn('interception', ev.player || st.players.find((p) => p.id === st.carrierId && p.team === 'away'), st);
+      if (ev.title === 'INTERCEPTADO!' && !startDefenseReaction('interception', ev.title, ev.team, st)) {
+        startPlayCutIn('interception', ev.player || st.players.find((p) => p.id === st.carrierId && p.team === 'away'), st);
+      }
       renderer.banner(ev.title, ev.message, 'bad'); audio.play('turnover'); audio.play('groan'); renderer.shake(3, 0.3);
       break;
     case 'period':
       if (ev.endedQuarter && !st.simulating) startBroadcastBreak('hosts', ev.endedQuarter, ev.halftime);
       else if (app.match.intro === null || ev.title !== 'KICKOFF') { renderer.banner(ev.title, ev.message, 'info'); audio.play('whistle'); }
       break;
-    case 'defenseStop':
-      if (['interception', 'sack', 'fumble', 'runStop'].includes(ev.bonus)) startPlayCutIn(ev.bonus, ev.player, st);
+    case 'defenseStop': {
+      const art = ev.bonus === 'interception' ? 'interception' : ['tackle', 'sack', 'fumble', 'runStop'].includes(ev.bonus) ? 'tackle' : null;
+      if (art && !startDefenseReaction(art, ev.title, 'home', st) && ev.bonus !== 'tackle') startPlayCutIn(ev.bonus, ev.player, st);
       renderer.banner(ev.title, ev.message, 'good'); audio.play('firstDown'); audio.swell(0.6, 1.4); if (ev.bonus) renderer.hype(2);
       break;
+    }
     case 'defenseCall': audio.play('alert'); break;
     case 'playEnd': audio.play('playEnd'); break;
     case 'bigPlay': renderer.banner(ev.title, '', 'good'); audio.swell(0.5, 1); break;

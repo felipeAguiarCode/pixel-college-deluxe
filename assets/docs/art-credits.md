@@ -51,7 +51,23 @@ Original wide 16:9 pixel artwork for a retro American college football videogame
 
 ## Cenas de pontuação
 
-Atlas incorporado em `score-art.js`. São 24 ilustrações originais, distribuídas em seis situações. O jogo aplica a paleta do time às regiões verde e magenta.
+O [atlas usado pelo jogo](../scripts/score-art.js) contém 32 ilustrações originais, com quatro variações para cada uma das oito situações. O jogo aplica a paleta do time às regiões verde e magenta.
+
+### Destaques da defesa
+
+[Atlas de tackles](../scoring/tackle-atlas.webp) · [Atlas de interceptações](../scoring/interception-atlas.webp)
+
+Prompt base usado no ImageGen para cada atlas
+
+> Generate a single wide 16:9 GAME SPRITE ATLAS, exactly four separate widescreen panels in a strict equal 2 columns by 2 rows arrangement. The two panel divisions are exactly at 50% width and exactly at 50% height. Each quadrant is an independent 16:9 close-up in the same retro tactile 16-bit pixel-art sports game style, no panel crosses into a neighboring panel, and all important characters and details stay well inside their own panel. Narrow plain dark navy gutters across the exact center, no outer border. Every panel features entirely different angle, mood, actors' poses and lighting, so the four independent cutscene variants are truly distinct. Crisp hand-drawn pixel clusters, hard stepped shading ramps and limited colors, anatomically correct limbs, realistic helmets and facemasks, no extra fingers, no duplicated limbs or confusing tangles. The team whose player makes the play ALWAYS wears jewel-toned emerald/leaf green helmet and jersey, magenta-violet trim and pants; green and magenta are reserved solely for that player's uniform to support in-game team recoloring. Defeated opponent wears slate/ivory or muted cinnamon uniforms. Warm natural skin. Stadium background dark navy with ivory floodlights, desaturated gray field textures, muted sepia stands, optional white chalk and amber spark particles; no vivid green or magenta backgrounds. American college football, full helmets and protective gear. No blood, no injury, no letters, no captions, no logo marks, no branding, no UI, no watermark.
+
+Complemento para tackles
+
+> Theme: clean legal tackles in full-speed college football games. Top left: a linebacker executes a form tackle around the runner's waist from the left, the runner securely holds a brown oval football against his chest, athletic horizontal movement with chalk dust and blue night lighting. Top right: close-up of a defender diving with both arms cleanly wrapped around a running back's hips a yard short of the pylon, clear two distinct silhouettes and rich warm sideline light. Bottom left: a pass rusher catches a helmeted quarterback behind the line for a sack, the quarterback hugs the ball, dramatic high three-quarter stadium angle with white turf hash marks and warm stadium lights, masses read clearly. Bottom right: a defender drives a receiver safely out of bounds after a catch, each athlete has a distinct pose and secure ball tucked well away from arms, cool rainy night, visible sideline and spray, dynamic diagonal composition.
+
+Complemento para interceptações
+
+> Theme: game-changing American football interceptions and the change of possession. Top left: a defensive back in the green uniform jumps in front of a clearly separate ivory receiver and catches an oval brown football overhead with both hands during a contested pass, heroic rim light. Top right: a safety dives across a pass lane to secure a low one-handed interception, camera at turf level, ball held in the front crook of the green player's glove, slate rival trails distinctly behind, streaks of chalk. Bottom left: after an interception, the green cornerback plants his cleat and accelerates in the opposite direction, the oval leather football tucked tightly against his ribs, two opposing players turning to pursue him, wide dynamic three-quarter angle, amber night lighting. Bottom right: after a clutch interception, the green defender holds the intercepted football triumphantly at chest level in both hands and roars toward the crowd while an ivory receiver stops in frustration in the distant background, cinematic dark crowd, stormy night under white floodlights.
 
 ### tdWin
 

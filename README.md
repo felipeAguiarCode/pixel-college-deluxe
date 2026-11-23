@@ -132,6 +132,23 @@ In a **pass-defense QTE**, **100%** accuracy earns an interception. At **80% or 
 
 <a name="saved-progress"></a>
 
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td><img src=".demo/19-storm-florida-miami-pass.png" alt="Florida vs. Miami, with a pass in the air during a storm" width="440"></td>
+    <td><img src=".demo/20-wind-texas-oklahoma-kick.png" alt="Texas vs. Oklahoma, with an extra-point attempt in strong wind" width="440"></td>
+  </tr>
+  <tr>
+    <td><img src=".demo/05-neve-michigan-michigan-state-handoff.png" alt="Michigan vs. Michigan State, with a handoff in the snow" width="440"></td>
+    <td><img src=".demo/22-rain-oregon-washington-return.png" alt="Oregon vs. Washington, with a kickoff return in the rain" width="440"></td>
+  </tr>
+  <tr>
+    <td><img src=".demo/21-snow-ohio-state-michigan-pursuit.png" alt="Ohio State vs. Michigan, with defenders chasing a runner in the snow" width="440"></td>
+    <td><img src=".demo/11-qte-miami-florida-defesa-do-passe.png" alt="Miami vs. Florida, with a quick-time event to defend a pass" width="440"></td>
+  </tr>
+</table>
+
 ## 💾 Saved progress
 
 Career and Championship progress stay in your browser. Use the same browser and profile to continue, and play in a regular window to keep your progress. Quick Play results are for that match.
