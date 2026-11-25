@@ -194,7 +194,7 @@ no placar. A defesa entra em campo.|points. The defense takes the field.
 no placar|points
 Pronto para jogar|Ready to play
 Uma jogada para alcançar a end zone.|One play to reach the end zone.
-Toque ou ESPAÇO para o snap. O QB entrega ao RB; depois desvie com W/S.|Tap or press Space to snap. The QB hands it off. Dodge with W/S.
+Toque ou ESPAÇO para o snap. Após a entrega, use WASD ou as setas para mover.|Tap or press Space to snap. After the handoff, move with WASD or the arrow keys.
 Snap com ESPAÇO. Depois aperte a tecla do recebedor (Q, W, E, R, T) para lançar.|Press Space to snap, then pick a receiver with Q, W, E, R or T.
 Leia a defesa|Read the defense
 Toque no recebedor (ou Q W E R T; Y = mais livre). Segure para um passe forte.|Tap a receiver or press Q W E R T. Y picks the open man. Hold for a bullet pass.
@@ -216,8 +216,16 @@ Toque para o snap · depois toque no recebedor|Tap to snap · then tap a receive
 Espaço: snap · depois Q W E R T para lançar|Space to snap · Q W E R T to pass
 Toque no recebedor: alto · segure: forte · arraste: colocado|Tap a receiver to lob · hold for a bullet · drag to aim
 Q-T: passe alto · segure: forte · Y: mais livre · C: correr|Q-T lob · hold for a bullet · Y open man · C scramble
-W/S desviar · Shift acelerar · E mergulhar|W/S dodge · Shift sprint · E dive
-W/S ou ↑/↓ para desviar · E para mergulhar|W/S or ↑/↓ to dodge · E to dive
+WASD ou setas · Shift acelerar · E mergulhar|WASD or arrows · Shift sprint · E dive
+WASD ou setas para mover · E para mergulhar|WASD or arrows to move · E to dive
+A jogada terminou na própria end zone.|The play ended in your own end zone.
+Assinatura|Signature
+Dois cruzamentos rasos com rotas externas para limpar o meio.|Two shallow crossers with outside routes clearing the middle.
+Três alvos em alturas diferentes na mesma lateral.|Three targets at different depths on the same side.
+Cortes por dentro em duas profundidades para dividir a zona.|Two in-breaking routes at different depths to split the zone.
+Tight end e slot atacam os espaços entre os safeties.|The tight end and slot attack the gaps between the safeties.
+O RB abre para a lateral e vira campo acima.|The running back swings outside and turns upfield.
+Uma rota vertical limpa espaço para o corte profundo por dentro.|A vertical route clears space for the deep in-breaker.
 Arraste para desviar|Drag to dodge
 Interceptado!|Intercepted!
 Bola perdida!|Turnover!
@@ -285,6 +293,14 @@ Tentativa|Down
 Tentativas|Attempts
 Jardas|Yards
 Pontos|Points
+Um ponto|One point
+Dois pontos!|Two points!
+Três pontos!|Three points!
+Dois pontos para o adversário.|Two points for the opponent.
+Dois pontos para nossa defesa.|Two points for our defense.
+1 ponto|1 point
+2 pontos|2 points
+3 pontos|3 points
 Partidas|Games
 Partida|Game
 Recompensa|Reward
@@ -441,7 +457,6 @@ Q W E R T ou toque no recebedor: passe alto · segure: passe forte|Q W E R T or 
 Y: passe para o mais livre (toque ou segure)|Y: throw to the open man (tap or hold)
 ARRASTE e solte: passe colocado|Drag and release to aim a pass
 ESPAÇO: snap / passe forte ao mais livre / mergulho / chute|Space: snap / bullet pass to the open man / dive / kick
-W/S ou ↑↓: desviar · SHIFT: acelerar · E: mergulhar|W/S or ↑↓: dodge · Shift: sprint · E: dive
 C: QB corre · Q: trocar jogada (antes do snap) · T: tempo|C: scramble · Q: change the play before the snap · T: timeout
 QTE: siga a sequência de botões ou acerte a faixa verde com Espaço ou toque.|QTE: enter the button sequence or hit the green zone with Space or a tap.
 Siga a ordem|Follow the sequence
@@ -475,7 +490,6 @@ Fim do retorno|End of return
 Retorno de|Return for
 Devolve o kickoff.|Returns the kickoff.
 Defenda o passe!|Defend the pass!
-100% interceptação · 80% tackle|100% interception · 80% tackle
 Clima|Weather
 Seu desempenho|Your stats
 Opções da partida|Game options
@@ -483,7 +497,12 @@ Interceptações|Interceptions
 Aleatório|Random
 Tempo limpo|Clear
 Chuva|Rain
+Dia chuvoso|Rainy day
+Noite chuvosa|Rainy night
+Golden hour · Chuva fina|Golden hour · Light drizzle
+Tempestade noturna|Night thunderstorm
 Neve|Snow
+Flocos de gelo|Ice Flurries
 Toque para pular|Tap to skip
 Espaço para pular|Space to skip
 Recebedor escapou!|The receiver got away!
@@ -506,6 +525,167 @@ Toques|Taps
 Toque|Tap
 Arraste|Drag
 Acelerar|Sprint
+Impulso de corrida|Run boost
+Aperte Shift|Press Shift
+Toque na barra|Tap the bar
+Corredor caiu!|Runner down!
+A bola está solta!|Loose ball!
+Fumble recuperado!|Fumble recovered!
+Conversão bem-sucedida.|Successful two-point conversion.
++2 no placar.|2 points added.
+Sem pontos extras.|No extra points.
+Buraco aberto!|Gap open!
+Giro perfeito!|Perfect spin!
+Corte seco!|Sharp cut!
+Perdeu o equilíbrio!|Lost balance!
+Empurre a pilha!|Push the pile!
+Pilha parada!|Pile stopped!
++1 jarda!|+1 yard!
++2 jardas!|+2 yards!
+Proteja a bola!|Protect the ball!
+Bola protegida!|Ball secured!
+Repita a tecla|Press repeatedly
+Toque várias vezes|Tap repeatedly
+Disputa por jardas!|Fight for yards!
+Aperte quando acender|Press when it lights up
+Passe em arco|Lob pass
+Passe com toque|Touch pass
+Passe alto (high)|High pass
+Passe rasteiro|Low pass
+Toque no recebedor · segure para passe forte|Tap a receiver · hold for a bullet pass
+Q-T: passe · Y: mais livre · SHIFT: alto · SHIFT+↓: rasteiro|Q–T pass · Y open receiver · Shift high · Shift+↓ low
+Impulso extra|Extra burst
+Juke perfeito!|Perfect juke!
+Toque no amarelo|Tap on yellow
+Espaço no amarelo|Space on yellow
+Sua carta|Your card
+Força da defesa|Defense strength
+Tempo restante|Time left
+Opções de vídeo|Video settings
+Padrões de vídeo restaurados.|Video defaults restored.
+Efeito CRT|CRT effect
+Nenhum|None
+Perfil do CRT|CRT profile
+TV de transmissão|Broadcast TV
+PS2 · Tons quentes|PS2 · Warm
+Cores vivas|Vivid Colors
+Fósforo verde|Green phosphor
+Mega Drive · Vídeo composto|Mega Drive · Composite
+Fósforo âmbar|Amber phosphor
+Preto e branco|Black and white
+Aberração cromática|Chromatic aberration
+Fisheye do CRT|CRT fisheye
+Zoom da tela|Screen zoom
+Desligadas|Off
+Finas|Fine
+Clássicas|Classic
+Espessas|Heavy
+Intercaladas|Interlaced
+Pressione Start|Press Start
+Use Enter ou toque para iniciar|Press Enter or tap to start
+Ouvir trilha de abertura|Play title music
+Defesa manual|Manual defense
+Disputa de força!|Strength clash!
+Repita|Mash
+Embate|Clash
+Recuo leve!|Defender pushed back!
+Defensor cambaleou!|Defender staggered!
+Defensor no chão!|Defender knocked down!
+Derrubada brutal!|Big hit!
+Arraste para mover|Drag to move
+WASD ou setas para mover · Q/E para trocar · Espaço para tackle|WASD or arrows to move · Q/E to switch · Space to tackle
+Na defesa, mova com WASD ou setas, troque com Q/E e dê o tackle com Espaço. Na disputa, segure Espaço para aplicar força, use ↑/↓ para mudar de postura e siga o comando na tela.|On defense, move with WASD or arrows, switch with Q/E, and tackle with Space. In a clash, hold Space to push, use ↑/↓ to change stance, and follow the on-screen prompt.
+Pressão normal|Normal pressure
+Explosão!|Burst!
+Pico de força!|Power surge!
+Recuperando|Recovering
+Exausto!|Exhausted!
+Contra-ataque!|Counterattack!
+Brecha?|Opening?
+Último esforço!|Desperation!
+Cautelosa|Conservative
+Equilibrada|Balanced
+Agressiva|Aggressive
+Resista à explosão!|Weather the surge!
+Responda ao contra-ataque!|Counter the move!
+Recupere o equilíbrio!|Regain your balance!
+Corte a fuga!|Cut off the escape!
+Aguente firme!|Hold the line!
+Segundo fôlego!|Second wind!
+Chance de derrubar!|Tackle opportunity!
+Última chance!|Last stand!
+Brecha suspeita!|Suspect opening!
+Arranque a bola?|Strip the ball?
+Finalize!|Finish the tackle!
+Finalize?|Finish?
+Não finalize!|Don't commit!
+Enter ou segure Espaço|Tap Enter or hold Space
+Toque ou segure|Tap or hold
+Segure|Hold
+Aperte|Press
+Aguarde|Wait
+Ação|Action
+Precisão perfeita!|Perfect timing!
+Acerto parcial|Partial hit
+Comando perdido|Missed input
+Janela fechada|Window closed
+Tackle perfeito!|Perfect tackle!
+Tackle dominante!|Dominant tackle!
+Tackle com ajuda!|Assisted tackle!
+Tackle com avanço!|Dragging tackle!
+Tackle fraco!|Weak tackle!
+Fumble forçado!|Forced fumble!
+Tackle quebrado!|Broken tackle!
+Tackle perdido!|Missed tackle!
+Bloqueio rompido!|Breakthrough!
+Avanço parcial!|Partial advance!
+Bloqueio manteve!|Block held!
+Defensor desequilibrado!|Defender off balance!
+Potente|Power
+Explosivo|Explosive
+Veloz|Speed
+Técnico|Technical
+Incansável|Relentless
+Fintador|Deceptive
+Resistente|Endurance
+Imprevisível|Unpredictable
+Duelo no bloqueio!|Block battle!
+Chance de romper!|Chance to break through!
+Rompa o bloqueio!|Break the block!
+Empate de força!|Stalemate!
+Fôlego|Stamina
+Equilíbrio|Stability
+Ataque recuperou!|Offense recovered!
+A jogada continua.|Play continues.
+A defesa parou a quarta tentativa.|The defense stopped them on fourth down.
+A defesa roubou a bola.|The defense took the ball away.
+Toque rápido para Lob, segure brevemente para Touch e segure mais para Bullet. SHIFT com o passe faz High. SHIFT e ↓ com o passe fazem Low. Y mira no recebedor mais livre.|Tap for a lob, hold briefly for a touch pass, or hold longer for a bullet. Shift throws a high pass. Shift and ↓ throw a low pass. Y targets the open receiver.
+Arraste a mira e solte para lançar no ponto. Use SHIFT para High ou SHIFT e ↓ para Low.|Drag to aim and release to throw to that spot. Hold Shift for a high pass, or Shift and ↓ for a low pass.
+Inicia o snap, mira no recebedor mais livre, mergulha, chuta e avança o lance. Na corrida, o QB entrega a bola ao RB automaticamente.|Snap the ball, target the open receiver, dive, kick, or advance after a play. The QB hands the ball off automatically on designed runs.
+Segure ACELERAR e toque no recebedor para High. Para Low, deslize o dedo de ACELERAR para baixo e mantenha pressionado ao tocar no alvo. Na corrida, arraste ou use ▲ ▼ para desviar.|Hold Sprint and tap a receiver for a high pass. For a low pass, slide down from Sprint and keep holding while tapping the target. While running, drag or use ▲ ▼ to dodge.
+Q W E R T ou toque no recebedor. Rápido faz Lob, breve faz Touch e segurar faz Bullet.|Press Q W E R T or tap a receiver. Tap for a lob, hold briefly for a touch pass, or hold for a bullet.
+SHIFT com passe faz High. SHIFT e ↓ com passe fazem Low.|Use Shift to throw high and Shift plus ↓ to throw low.
+ESPAÇO inicia o snap, mira no recebedor mais livre, mergulha ou chuta.|Press Space to snap, target the open receiver, dive, or kick.
+Aperte quando os círculos se tocarem|Press when the rings meet
+Muito cedo!|Much too early!
+Cedo!|Too early!
+Muito tarde!|Much too late!
+Tarde!|Too late!
+Derrubado para trás|Tackled backward
+Caiu para a frente|Fell forward
+Pedra|Rock
+Papel|Paper
+Tesoura|Scissors
+Suas cartas|Your cards
+Ganho curto!|Short gain!
+A defesa limitou o avanço adversário.|The defense limited the gain.
+Ataque escapou!|Offense gets away!
+Empate!|Draw!
+Derrota!|Loss!
+QTEs de corrida|Running QTEs
+Após o handoff, aperte SHIFT ou toque na barra para travar o ponteiro. Verde dá impulso e o centro dá um boost extra. Na finta, siga as setas. No contato, siga a tecla exibida.|After the handoff, press Shift or tap the bar to stop the pointer. Green gives a burst and the center gives an extra boost. Follow the arrows to evade and the displayed key at contact.
+Na defesa, escolha pedra, papel ou tesoura e confirme antes de o tempo acabar. Vença as três rodadas para interceptar.|On defense, choose rock, paper, or scissors and confirm before time runs out. Win all three rounds for an interception.
+Após o handoff, aperte SHIFT para travar a barra de impulso · siga as setas na finta · use o Q ou E mostrado no contato.|After the handoff, press Shift to stop the boost bar · follow the arrows to evade · press the displayed Q or E at contact.
 No celular|On mobile
 Abandono|Forfeit
 Tempo / pausa|Timeout / pause
@@ -551,7 +731,8 @@ Use ↑↓ para mudar de aba, ←→ para navegar e Enter para confirmar. Os nú
 Depois do snap as rotas ficam na tela e cada recebedor tem a sua tecla (Q, W, E, R, T). Y lança para o mais livre. Toque rápido: passe alto, por cima da marcação. Segure: passe forte e rápido. A barra sob o botão mostra quem está livre.|Press Q, W, E, R or T to target a receiver after the snap. Y picks the open man. Tap to lob or hold for a bullet. The bar shows how open each receiver is.
 Arraste no campo até um ponto e solte para lançar exatamente ali. SHIFT ao soltar deixa o passe forte.|Drag to a spot on the field and release to throw there. Hold Shift when releasing for a bullet pass.
 Snap, passe forte para o mais livre, mergulho, chute e avançar o lance. Na corrida, o QB entrega a bola ao RB sozinho.|Snap, throw a bullet to the open man, dive, kick or advance after a play. The QB hands off automatically on rush calls.
-Desvie dos defensores. SHIFT acelera, E mergulha, C faz o QB sair correndo. Com o QB no pocket, W e E lançam: use ↑↓ para se mexer.|Dodge defenders. Shift sprints, E dives and C scrambles. W and E target receivers in the pocket, so use ↑↓ to move the QB.
+Corra em qualquer direção com WASD ou as setas. SHIFT acelera, E mergulha e C tira o QB do pocket. No pocket, use as setas para mover o QB.|Run in any direction with WASD or the arrow keys. Shift sprints, E dives, and C scrambles. In the pocket, use the arrow keys to move the QB.
+No celular, use o direcional para mover o jogador. Com a bola em corrida, também dá para arrastar no campo em qualquer direção.|On touch screens, use the joystick to move. While running with the ball, you can also drag anywhere on the field in any direction.
 Nos QTEs de sequência, pressione as setas e letras na ordem mostrada antes que o tempo acabe. Na barra de precisão, pressione Espaço ou toque quando o marcador estiver no verde.|For sequence QTEs, press the displayed arrows and letters in order before time runs out. For timing QTEs, press Space or tap when the marker reaches green.
 T pede tempo (3 por tempo). P ou ESC pausa.|T calls a timeout (three per half). P or Escape pauses.
 Toque no recebedor para lançar (segure para um passe forte) ou arraste para um passe colocado. Na corrida, arraste para cima ou para baixo, ou use ▲ ▼. Toque em MERGULHAR para garantir as jardas.|Tap a receiver to pass, hold for a bullet or drag to aim. While running, drag up or down or use ▲ ▼. Tap Dive to secure the yards.
@@ -627,7 +808,7 @@ Dois safeties dividem o fundo. Corners cobrem as laterais.|Two deep safeties spl
 Cinco defensive backs para marcar o slot e rotas curtas.|Five defensive backs cover the slot and short routes.
 Seis na linha. Fecha o meio para parar a corrida curta.|Six on the line. Closes the middle against short runs.
 Pare a corrida!|Stop the run!
-Corrida parada!|Run stopped!
+Corrida parada!|Run stop!
 A defesa fechou o meio e recuperou a posse.|The defense shut down the middle and took over.
 Field goal decisivo!|Clutch field goal!
 Field goal de longa distância!|Long field goal!
@@ -696,7 +877,74 @@ Intervalo encerrado.|Halftime is over.
 Cada equipe recebe uma posse na linha de 25.|Each team gets a possession at the 25-yard line.
 Interceptação decisiva!|Clutch interception!
 Posse recuperada|Possession gained
-Defesa em destaque|Defensive highlight`;
+Defesa em destaque|Defensive highlight
+Curto|Short
+Médio|Medium
+Bowl das Planícies|Plains Bowl
+Pós-temporada|Postseason
+Centro de recuperação|Recovery center
+Sessão de recuperação|Recovery session
+Instalação não encontrada.|Facility not found.
+Final da|Championship of
+valendo o título da conferência.|for the conference title.
+Fora do playoff, mas a temporada ainda tem uma decisão.|You missed the playoff, but the season still has a bowl game.
+No playoff como cabeça de chave #|In the playoff as seed #
+Cabeça de chave #|Seed #
+folga na 1st rodada e quartas contra|first-round bye, then a quarterfinal against
+é o último obstáculo rumo ao título nacional.|is the last obstacle on the way to the national title.
+Os estudantes organizaram uma tarde de atividades com o elenco. Você pode aproximar o time da torcida.|Students have organized an afternoon with the roster. Bring the team and its fans closer together.
+A associação de ex-alunos quer investir no programa. Escolha onde esse apoio será mais útil.|The alumni association wants to invest in the program. Choose where the support will help most.
+Conclua a temporada antes de começar a próxima.|Finish this season before starting the next one.
+Escolha uma nova universidade antes de continuar.|Choose a new school before continuing.
+Essa proposta não está mais disponível.|That offer is no longer available.
+A diretoria confia em você para reconstruir o programa.|The athletic department trusts you to rebuild the program.
+Carreira transferida para a liga universitária completa:|Career migrated to the full college league:
+começa a temporada|starts season
+Save inválido:|Invalid save:
+arquivo vazio.|empty file.
+o arquivo deve ter até 2 MB.|the file can be up to 2 MB.
+versão de formato incompatível.|unsupported file format version.
+universidade desconhecida.|unknown school.
+ano, semana ou identificador da carreira incorreto.|invalid year, week, or career identifier.
+saldos ou limite de bolsas incorretos.|invalid balances or scholarship limit.
+elenco ou calendário incompleto.|incomplete roster or schedule.
+há atletas duplicados.|duplicate players.
+identificação de atleta incorreta.|invalid player identifier.
+atributos ou situação de atleta incorretos.|invalid player attributes or status.
+atributos de atleta fora da escala.|player attributes out of range.
+estado de lesão incorreto.|invalid injury status.
+níveis das instalações incorretos.|invalid facility levels.
+histórico ou recrutamento inválido.|invalid history or recruiting data.
+registro de temporada inválido.|invalid season record.
+registro de atleta inválido no Yearbook.|invalid Yearbook player record.
+candidato de recrutamento inválido.|invalid recruit.
+convertida para a liga universitária completa.|migrated to the full college league.
+fase da competição desconhecida.|unknown competition stage.
+semana incompatível com a fase da competição.|the week does not match the competition stage.
+calendário incompleto.|incomplete schedule.
+partida inválida no calendário.|invalid game in the schedule.
+placar inválido.|invalid score.
+chave da pós-temporada inválida.|invalid postseason bracket.
+final de conferência inválida.|invalid conference championship.
+a temporada regular não contém uma partida por equipe em cada semana.|the regular season needs one game per team each week.
+campanha inválida.|invalid record.
+confiança da diretoria inválida.|invalid athletic department confidence.
+metas da temporada inválidas.|invalid season goals.
+estatísticas da temporada inválidas.|invalid season stats.
+propostas de emprego inválidas.|invalid job offers.
+não há próxima partida para a fase atual.|there is no next game for the current stage.
+o conteúdo não é um arquivo de carreira válido.|the file does not contain a valid career save.
+Uma campanha de respeito. Escolha a conversão.|What a drive. Choose the extra try.
+jardas · nova série de tentativas.|yards · fresh set of downs.
+Troca de posse|Turnover on downs
+A quarta tentativa não foi convertida.|Fourth down was not converted.
+Quarta tentativa não convertida.|Fourth down failed.
+A partir da 3rd overtime: disputa de conversões de 2 pontos.|Starting in the third overtime, teams trade two-point attempts.
+Bola recuperada pela nossa defesa!|Our defense recovered the ball!
+Playoff nacional com 12 times: os 5 campeões de conferência mais bem colocados têm vaga garantida e o resto entra pelo ranking. Os 4 primeiros folgam na 1st rodada.|The 12-team national playoff guarantees spots to the five highest-ranked conference champions. The remaining teams qualify by ranking. The top four get a first-round bye.
+já é usada por outro time.|is already used by another team.
+Novo campus. Nova história. Confira as 3 metas da temporada!|New campus. New story. Check your three season goals!
+O arquivo de save deve ter no máximo 2 MB.|Career saves must be 2 MB or smaller.`;
 
 const englishPhrases = new Map(englishEntries.split('\n').map((line) => {
   const [pt, en] = line.split('|');
@@ -717,6 +965,9 @@ function englishCopy(value) {
   const result = text
     .replace(/(\d+)[.](\d{3})(?=\D|$)/g, '$1,$2')
     .replace(/(\d+),(\d{1,2})(?=\D|$)/g, '$1.$2')
+    .replace(/(\d+)ª tentativa · (\d+) jardas\./gi, (_, down, yards) => `${englishOrdinal(down)} & ${yards}.`)
+    .replace(/(\d+)ª prorrogação/gi, (label, round) => label === label.toUpperCase()
+      ? `${englishOrdinal(round).toUpperCase()} OVERTIME` : `${englishOrdinal(round)} overtime`)
     .replace(/(\d+)\s*ª(?:\s+para\s+(?:o\s+)?|(?=\s|$))/gi, (label, n) => englishOrdinal(n) + (/\spara\s/i.test(label) ? ' & ' : ''))
     .replace(/(\d+)º\s+(quarto|Q)\b/gi, (_, n) => 'Q' + n)
     .replace(/Semana (\d+) de (\d+)/gi, (label, week, total) => label === label.toUpperCase() ? `WEEK ${week} OF ${total}` : `Week ${week} of ${total}`)

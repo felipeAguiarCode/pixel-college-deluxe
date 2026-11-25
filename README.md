@@ -76,10 +76,10 @@ Pixel-art college football with quick matches, championships, and a coaching car
 | :---: | :---: |
 | Call a play | Use **← / →** to browse, **↑ / ↓** to switch offensive tabs, and **Enter** to confirm. The numbers on the cards are shortcuts. |
 | Before the snap | Press **Space** to snap. Press **Q** to return to the playbook. |
-| Pass from the pocket | **Q / W / E / R / T** select the receivers marked on the field. **Y** selects the most open target. Tap and release for a lob or hold and release for a bullet pass. |
-| Throw a quick bullet pass | Press **Space** while the quarterback is ready to throw to target the most open receiver. |
-| Place a pass | Click and drag to aim, then release. Hold **Shift** when you release for a harder throw. |
-| Run and dodge | Press **C** to scramble with the QB. As the runner, use **W / S** or **↑ / ↓** to dodge and **Shift** to sprint. On a designed run, the QB hands the ball off automatically. |
+| Pass from the pocket | **Q / W / E / R / T** target the marked receivers. **Y** or **Space** target the most open receiver. Tap for a **Lob**, hold briefly for **Touch**, or hold longer for **Bullet**. |
+| Throw high or low | Hold **Shift** while pressing the pass button for **High**. Hold **Shift + ↓** while pressing it for **Low**. |
+| Place a pass | Click and drag to aim, then release for a **Touch** pass. The High and Low modifiers also work on release. |
+| Move with the ball | Press **C** to scramble with the QB. Use **WASD** or the **arrow keys** to run in any direction, and hold **Shift** to sprint. Release the direction to slow to a stop. On a designed run, the QB hands the ball off automatically. |
 | Dive with the ball | Press **E** or **Space** while running. With the QB ready to throw, **E** selects a receiver. |
 | Kick or hit a timing meter | Press **Space** when the marker reaches the green zone. |
 | Receive a kickoff | Press **1** to call a fair catch or **2** to try a return. |
@@ -92,9 +92,9 @@ Use the **arrow keys** to move the QB in the pocket. The letter keys select pass
 
 Play in landscape for a wider view. Tap a play card to select it, then tap the field to snap.
 
-Tap a receiver for a lob. Hold and release for a bullet pass. Drag to place a pass.
+Tap a receiver for a **Lob**, hold briefly for **Touch**, or hold longer for **Bullet**. Hold **Sprint** and tap a receiver for **High**. For **Low**, slide down from **Sprint** and keep holding while tapping the receiver. Drag to place a pass.
 
-While running, drag up or down or use **▲ / ▼**. Tap **Dive** to reach for the last few yards.
+Use the on-screen joystick to move in the pocket or run with the ball. While running, you can also drag anywhere on the field in any direction. Hold **Sprint** to run faster. Tap **Dive** to lunge in the direction you're moving.
 
 Tap the buttons shown in a QTE sequence. For kicks and timing meters, tap at the right moment.
 
@@ -118,21 +118,33 @@ After a touchdown, choose an extra point or a two-point play. Longer kicks requi
 
 ### ❄️ Offense, coverage, and weather
 
-Read the routes before the snap and use the meter under each receiver's marker to find space. The AI varies its alignment and coverage depth based on the down, distance, and field position.
+Each school has its own playbook and a **Signature** pass. The diagrams show the same alignments and routes used on the field. Look for the signature play in the Suggested and Pass tabs.
+
+Read the routes before the snap and use the meter under each receiver's marker to find space. Man defenders track receivers through cuts. Zone defenders react to routes entering their area and protect against deeper options. After the throw, the best-positioned defender breaks toward the ball while the rest keep their assignments.
 
 Use short throws or crossing routes against quick pressure. Save the deep ball for when the pocket holds and the receiver has room.
 
 **Rain** and **thunderstorms** make passes less accurate and the ball harder to catch. **Snow** reduces passing range and makes changes of direction slower. **Strong wind** moves passes and kicks sideways. **Fog** reduces visibility on the field.
 
+In **Quick Game** or **Watch Game**, choose conditions such as Rainy Night, Golden Hour, Golden Hour with Light Drizzle, Fog, or Ice Flurries. Reflectors cast a soft glow through fog, and ice flakes brighten as they pass through pools of light. Night thunderstorms add lightning and thunder. Dives follow the runner's momentum at takeoff and slide farther on slick turf.
+
 ### ⚡ QTEs and one-handed catches
 
-Quick-time events appear in the center of the field. For sequences, press the arrows and letters from left to right before time runs out. Correct inputs dim the buttons and briefly shake the field. Wrong inputs leave an **X**.
+For quick-time sequences in the center of the field, press the arrows and letters from left to right before time runs out. Correct inputs dim the buttons and briefly shake the field. Wrong inputs leave an **X**.
 
-An open receiver gets a larger green timing window. Tight coverage shrinks the window and can move it along the meter. Hit the green to make the catch. When a **gold** segment appears, hit it for a one-handed catch on a completed pass.
+Longer passes place the catch timing window later on the meter. Tight coverage, defenders in the passing lane, and pressure on the quarterback narrow the green and gold windows. Hit green to make the catch or gold for a one-handed catch.
 
 One-handed catches, interceptions, conversions, and other big plays can trigger a full-width highlight. Press **Space** or tap the screen to continue.
 
-On a **two-point conversion**, the green catch window is smaller and reaching the end zone starts a sequence of 8–10 inputs. Finish the sequence to earn the two points.
+On a **two-point pass**, the green catch window is smaller. Reaching the end zone starts a sequence of 8–10 inputs. Complete it to score. On a run, crossing the goal line with the ball earns two points.
+
+### 🏃 Running QTEs
+
+- **Run boost.** On a called run, a timing bar appears above the running back after the handoff. Press **Shift** or tap the bar to stop the pointer. **Red** drops the ball for either team to recover. **Yellow** ends the run with the ball secured. **Dark green** sends the runner into the best available lane before returning control to you. Hit the **light-green center** for extra speed and an afterimage trail. Letting time run out counts as red.
+- **Juke and spin.** In open space, follow two or three arrows in order with **← / ↑ / ↓ / →** or the on-screen arrows. The juke plants a foot and cuts across the field with afterimages, while the spin takes the runner through a full turn. Press **Space** or tap on yellow for extra speed and a stronger trail. Missing the arrows makes the runner stumble and increases the fumble risk on a hard tackle.
+- **Contact.** For a **stiff arm**, press the displayed **Q** or **E**, or tap the button at the center of the screen, when the rings meet. Early and late presses change the hit and the ball spot. To **truck** or **protect the ball**, press the displayed key when it lights up. In a **pile**, press the displayed key repeatedly to drag two defenders for up to two yards.
+
+Jukes and spins appear on designed runs, scrambles, and kickoff returns. At contact on a return, press the displayed **Q** or **E** repeatedly or tap to fill the meter above the returner and gain up to three extra yards. If the meter stays empty, the tackle ends the play at the spot of contact.
 
 ### 🛡️ Defensive calls
 
@@ -145,7 +157,19 @@ On a **two-point conversion**, the green catch window is smaller and reaching th
 | **Nickel** | Use five defensive backs against the slot and short routes. |
 | **Goal Line** | Close off the middle near the end zone or against a short run. |
 
-In a **pass-defense QTE**, **100%** accuracy earns an interception. At **80% or higher**, you tackle the receiver after the catch. Below **80%**, the receiver gets away.
+On defense, use **WASD** or the **arrow keys** to move the highlighted defender. **Q / E** switch players, and **Space** attempts a tackle. To try an interception, get in the passing lane and press **Space** when the ball is within reach.
+
+A contested manual tackle can start a **Dynamic Tackle Battle**. Hold **Space** to apply force and use **↑ / ↓** to change stance. Watch both players' stamina and stability. Use a conservative stance to brace for a surge and an aggressive stance to exploit an opening. When a timing prompt shows **Q** or **E**, press that key or tap it when the ring lights up. Clean tackles and tackles by teammates resolve immediately.
+
+The opposing offense mixes inside runs, sweeps, and counters with quick passes, crossing routes, and deep throws. Winning a tackle against a runner triggers a **Run Stop** highlight. Touchdown highlights use the name and colors of the team that scored.
+
+The runner can gain extra yards during a struggle. An open window can lead to a perfect tackle or a strip attempt. A forced fumble leaves the ball live for either team. A defensive lineman can also use a battle to break free of a blocker.
+
+A turnover on downs preserves the spot where the play ended. A missed field goal gives the defense the ball at the spot of the kick.
+
+### 🖥️ Video settings
+
+Open **Video Settings** from the main menu or the pause menu. The defaults are **Broadcast TV**, **CRT · SNES** scanlines, 20% chromatic aberration, 100% CRT fisheye, and 115% screen zoom. Choose **None** or select a CRT profile such as **PS2 · Warm**, **Vivid Colors**, or Mega Drive RGB or Composite. Scanline styles include Fine, SNES, GBA, and Interlaced. CRT fisheye ranges from 0% to 200%, and chromatic aberration ranges from 0% to 100%. Screen zoom enlarges the picture to reduce the black borders around the curved screen while the scoreboard and on-screen text stay sharp. Changes apply immediately and save automatically. Press **Enter** or tap **Press Start**. Use the music button to hear the opening theme before continuing.
 
 <a name="saved-progress"></a>
 

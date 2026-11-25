@@ -76,10 +76,10 @@ Futebol americano universitário em pixel art, com partidas rápidas, campeonato
 | :---: | :---: |
 | Escolher a jogada | **← / →** para navegar, **↑ / ↓** para mudar a aba de ataque e **Enter** para confirmar. Os números dos cartões são atalhos. |
 | Antes do snap | **Espaço** inicia o lance. **Q** volta ao playbook. |
-| Passar com o QB no pocket | **Q / W / E / R / T** selecionam os alvos indicados no campo. **Y** escolhe o mais livre. Pressione e solte rápido para um passe alto. Segure e solte para um passe forte. |
-| Passe forte para o mais livre | **Espaço** com o QB pronto para lançar. |
-| Passe colocado | Clique, arraste a mira no campo e solte. Segure **Shift** ao soltar para lançar mais forte. |
-| Correr e desviar | **C** faz o QB sair do pocket correndo. Com a bola em corrida, use **W / S** ou **↑ / ↓** para desviar e **Shift** para acelerar. O QB entrega a bola ao RB automaticamente em jogadas de corrida. |
+| Passar com o QB no pocket | **Q / W / E / R / T** miram nos alvos indicados no campo. **Y** ou **Espaço** miram no mais livre. Toque rápido para **Lob**, segure brevemente para **Touch** e segure mais para **Bullet**. |
+| Passe alto ou rasteiro | Segure **Shift** e aperte o passe para **High**. Segure **Shift + ↓** e aperte o passe para **Low**. |
+| Passe colocado | Clique, arraste a mira e solte para um **Touch**. Os modificadores de High e Low também funcionam ao soltar. |
+| Mover com a bola | **C** faz o QB sair do pocket correndo. Use **WASD** ou as **setas** para correr em qualquer direção e **Shift** para acelerar. Solte o direcional para frear até parar. O QB entrega a bola ao RB automaticamente em jogadas de corrida. |
 | Mergulhar com a bola | **E** ou **Espaço** durante a corrida. Com o QB pronto para passar, **E** seleciona um recebedor. |
 | Chutar ou acertar uma barra de precisão | **Espaço** quando o marcador chegar à faixa verde. |
 | Receber um kickoff | **1** para pedir fair catch ou **2** para tentar o retorno. |
@@ -92,9 +92,9 @@ Enquanto o QB está no pocket, use as **setas** para se mover. As letras de pass
 
 Prefira jogar na horizontal. Toque no cartão para escolher a jogada e no campo para o snap.
 
-Toque no recebedor para um passe alto. Segure e solte para um passe forte. Arraste a mira para um passe colocado.
+Toque rápido no recebedor para **Lob**, segure brevemente para **Touch** ou segure mais para **Bullet**. Para **High**, segure **Acelerar** e toque no recebedor. Para **Low**, deslize o dedo de **Acelerar** para baixo, continue segurando e toque no recebedor. Arraste a mira para um passe colocado.
 
-Na corrida, arraste para cima ou para baixo ou use os botões **▲ / ▼**. Toque em **Mergulhar** para ganhar as últimas jardas.
+Use o direcional na tela para se mover no pocket ou correr com a bola. Na corrida, você também pode arrastar no campo em qualquer direção. Segure **Acelerar** para correr mais rápido. Toque em **Mergulhar** para se lançar na direção em que está correndo.
 
 Toque nos próprios botões da sequência de QTE. Nos chutes e nas barras de precisão, toque no momento certo.
 
@@ -118,21 +118,33 @@ Depois do touchdown, escolha o chute extra ou uma jogada de dois pontos. Chutes 
 
 ### ❄️ Ataque, leitura de campo e clima
 
-Olhe as rotas antes do snap e a barra sob o indicador do recebedor para encontrar quem tem espaço. A IA muda o alinhamento e a profundidade da cobertura conforme a descida, a distância e a posição no campo.
+Cada universidade tem seu próprio playbook e um passe de **Assinatura**, disponível nas abas Sugeridas e Passe. Os diagramas mostram o alinhamento e as rotas executadas no campo.
+
+Olhe as rotas antes do snap e a barra sob o indicador do recebedor para encontrar quem tem espaço. Na marcação individual, os defensores acompanham os cortes dos recebedores. Em zona, reagem às rotas que cruzam sua área e protegem o fundo. Após o passe, o defensor mais bem posicionado vai à bola, e os demais mantêm suas atribuições.
 
 Contra pressão rápida, procure um passe curto ou uma rota cruzada. Guarde os passes mais longos para quando houver tempo no pocket e espaço para o alvo.
 
 Na **chuva** e no **temporal**, os passes perdem precisão e a bola fica mais difícil de segurar. Na **neve**, o alcance diminui e mudar de direção leva mais tempo. O **vento forte** desvia passes e chutes. A **névoa** reduz a visibilidade no campo.
 
+Em **Jogo Rápido** ou **Assistir Partida**, escolha condições como noite chuvosa, golden hour, golden hour com chuva fina, névoa ou flocos de gelo. A névoa difunde a luz dos refletores, e os flocos brilham ao passar pelas áreas iluminadas. Na tempestade noturna, relâmpagos e trovões acompanham o vento. O mergulho segue o embalo do jogador na saída e desliza mais no piso escorregadio.
+
 ### ⚡ QTEs e recepção com uma mão
 
-Os QTEs são desafios rápidos que aparecem no centro da tela. Em uma sequência, siga as setas e letras da esquerda para a direita antes que o tempo acabe. Os acertos escurecem o botão e dão um leve tremor no campo. Os erros ficam marcados com **X**.
+Nos QTEs de sequência no centro da tela, siga as setas e letras da esquerda para a direita antes que o tempo acabe. Os acertos escurecem o botão e dão um leve tremor no campo. Os erros ficam marcados com **X**.
 
-Na barra de recepção, jogadores livres ganham uma área verde maior. Sob pressão, a faixa fica menor e pode aparecer em outra posição. Acerte a faixa verde para completar a recepção. Quando houver um segmento **dourado**, acertá-lo ativa a recepção com uma mão se o passe for completado.
+Passes mais longos posicionam a janela de recepção mais adiante na barra. Marcação próxima, defensores na linha do passe e pressão no quarterback estreitam as faixas verde e dourada. Acerte a faixa verde para completar a recepção ou a **dourada** para receber com uma mão.
 
 Recepções com uma mão, interceptações, conversões e outros lances grandes podem abrir uma faixa animada de ponta a ponta. Use **Espaço** ou toque na tela para seguir.
 
-Na **conversão de dois pontos**, a janela verde de recepção é menor e chegar à end zone inicia uma sequência de 8 a 10 comandos. Complete a sequência para garantir os dois pontos.
+Na **conversão de dois pontos por passe**, a janela verde de recepção é menor. Ao chegar à end zone, complete a sequência de 8 a 10 comandos para pontuar. Na conversão terrestre, cruzar a linha do gol com a bola vale dois pontos.
+
+### 🏃 QTEs de corrida
+
+- **Impulso de corrida.** Em uma corrida chamada, a barra aparece acima do running back após o handoff. Aperte **Shift** ou toque na barra para travar o ponteiro. No **vermelho**, a bola fica solta para qualquer equipe recuperar. No **amarelo**, o corredor cai com a bola. No **verde escuro**, ele segue pelo melhor espaço disponível por um instante antes de devolver o controle. O **centro verde claro** dá velocidade extra e deixa um rastro. Deixar o tempo acabar conta como vermelho.
+- **Juke e Spin.** Em campo aberto, siga duas ou três setas na ordem indicada com **← / ↑ / ↓ / →** ou toque nas setas na tela. No Juke, o corredor finca o pé e deixa rastros ao cortar para o outro lado. No Spin, ele completa uma volta de 360°. Aperte **Espaço** ou toque na faixa amarela para ganhar velocidade extra e reforçar os rastros. Errar as setas faz o corredor tropeçar e aumenta o risco de fumble num tackle forte.
+- **Contato.** No **Stiff Arm**, aperte o **Q** ou **E** sorteado, ou toque no botão no centro da tela, quando os círculos se encontrarem. Erros cedo e tarde mudam o impacto e o ponto em que a bola fica. No **Truck** e na **Proteção de Bola**, aperte a tecla indicada quando acender. Na **pilha**, repita a tecla indicada para arrastar dois defensores por até duas jardas.
+
+Juke e Spin aparecem em corridas chamadas, scrambles e retornos de kickoff. No encontrão do retorno, repita o **Q** ou **E** exibido ou toque várias vezes para encher a barra acima do retornador e ganhar até três jardas extras. Se o tempo acabar com a barra vazia, o tackle encerra o lance no ponto do contato.
 
 ### 🛡️ Escolha defensiva
 
@@ -145,7 +157,19 @@ Na **conversão de dois pontos**, a janela verde de recepção é menor e chegar
 | **Nickel** | Contra o slot e as rotas curtas, com cinco defensive backs. |
 | **Linha do Gol / Goal Line** | Perto da end zone ou contra uma corrida curta pelo meio. |
 
-No QTE de **defesa do passe**, **100%** de acerto dá a interceptação. Com **80% ou mais**, você derruba o recebedor depois da recepção. Abaixo de **80%**, o recebedor escapa.
+Na defesa, use **WASD** ou as **setas** para mover o defensor destacado. **Q / E** alternam entre os jogadores, e **Espaço** tenta um tackle. Para tentar interceptar, entre na trajetória do passe e aperte **Espaço** quando a bola estiver ao alcance.
+
+Uma tentativa manual de tackle pode iniciar um **embate defensivo**. Segure **Espaço** para aplicar força e use **↑ / ↓** para mudar de postura. Acompanhe o fôlego e o equilíbrio dos dois atletas. Use a postura cautelosa para aguentar um pico de força e a agressiva para aproveitar uma brecha. Quando o aviso mostrar **Q** ou **E**, aperte a tecla indicada ou toque nela quando o anel acender. Tackles limpos e tackles dos companheiros são resolvidos na hora.
+
+O ataque rival alterna corridas pelo meio, por fora e com mudança de direção, além de passes rápidos, rotas cruzadas e lançamentos longos. Ganhar um tackle contra um corredor abre a faixa **Corrida Parada**. A comemoração de touchdown usa o nome e as cores da equipe que marcou.
+
+O corredor pode conquistar jardas durante o embate. Uma brecha pode levar a um tackle perfeito ou a uma tentativa de arrancar a bola. Um fumble forçado deixa a bola viva para qualquer equipe recuperar. O defensor de linha também pode disputar um embate para se livrar de um bloqueio.
+
+A troca de posse na quarta descida preserva o ponto em que o lance terminou. Se um field goal não entrar, a defesa começa no ponto do chute.
+
+### 🖥️ Opções de vídeo
+
+Abra **Opções de Vídeo** no menu inicial ou na pausa. Os padrões são **TV de transmissão**, scanlines **CRT · SNES**, aberração cromática de 20%, fisheye de 100% e zoom da tela de 115%. Escolha **Nenhum** ou um perfil de CRT como **PS2 · Tons quentes**, **Cores vivas**, Mega Drive RGB ou vídeo composto. As scanlines têm quatro estilos (Finas, SNES, GBA e Intercaladas). O fisheye vai de 0% a 200%, e a aberração cromática vai de 0% a 100%. O zoom amplia a imagem para reduzir as bordas pretas da tela curva e mantém o placar e os textos nítidos. Os ajustes aparecem na hora e são salvos automaticamente. A tela **Press Start** aceita **Enter** ou toque. Use o botão de música para ouvir a abertura antes de avançar.
 
 <a name="salvamento"></a>
 
